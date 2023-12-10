@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+.main-body{
+    width: 400px;
+    height: 90vh;
+    border: 1px solid #dadada;
+    border-radius: 20px;
+    margin-top: 30px;
+    position: relative;
+    /* display: none; */
+}
+
+.main #logo > img{
+    height: 40px;
+    filter:contrast(200%);
+}
+body{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+.main{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    border-bottom: 1px solid #dadada;
+
+     /* display: none; */
+}
+.icons{
+    
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+   
+}
+#heart{
+    margin-right: 5px
+}
+.card{
+    /* display: none; */
+    height: 90px;
+    white-space: nowrap;
+    border-bottom: 1px solid #dadada;
+    border: none;
+    
+}
+#stories{
+    
+    overflow: hidden;
+ overflow-x: auto;
+ cursor: pointer;
+  
+}
+#stories::-webkit-scrollbar{
+    display: none;
+}
+#full-screen{
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    /* object-fit: cover; */
+    background-size: cover;
+    background-position: center;
+   /* background-color: yellow; */
+    display:none;
+}
+.story{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    border: 3px solid rgb(230, 69, 69);
+    padding: 2px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+   
+}
+.page{
+    /* background: #cccccc; */
+    /* color: white; */
+    /* padding: 15px; */
+    width: 100%;
+    margin-top: 6px;
+    height: 75%;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* border: 1px solid #ccc; */
+    /* display: none; */
+}
+.page::-webkit-scrollbar{
+    display: none;
+}
+.page svg{
+    height:50px;
+    width: 20px;
+}
+#user{
+   
+    padding: 0;
+    position: relative;
+    margin: 0;margin-bottom: 10px;
+    height: 400px;
+    /* background-color: rgb(146, 146, 146); */
+}
+#title{
+    height: 45px;
+    /* border-bottom: 1px solid #dadada; */
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 12px;
+    border-bottom:1px solid #dadada;
+
+}
+#title img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    
+}
+#title span{
+    margin-left: -240px;
+}
+
+#post{
+    height:300px;
+    /* object-fit: cover; */
+    object-position: center;
+    
+}
+#post img{
+    margin-top: 0px;
+    object-position: center;
+    height: inherit;
+    width: auto;
+}
+
+/* like-section */
+.left-icons img , .right-icons img{
+    height: 20px;
+} 
+.like-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.left-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.left-icons *{
+    cursor: pointer;
+}
+#red-heart-fill{
+    display: none;
+}
+.right-icons *{
+    cursor: pointer;
+}
+#comment-icon{
+    /* -webkit-transform: scaleX(-1); */
+    transform: scaleX(-1);
+}
+.right-icons{
+    margin-right: 5px;
+    
+}
+
+#comment{
+
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* height: 30px; */
+    padding-top: 12.5px;
+    padding-bottom: 8px;
+    border-top:1px solid #dadada ;
+    background-color: white;
+    justify-content:space-around;
+    border-radius: 0 0 20px 20px ;
+    /* display: none; */
+}
+.footer>a>img{
+    height: 22px;
+
+}
