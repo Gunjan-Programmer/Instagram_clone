@@ -105,6 +105,7 @@ body{
     height: 75%;
     overflow: scroll;
     overflow-x: hidden;
+    
     /* border: 1px solid #ccc; */
     /* display: none; */
 }
@@ -139,6 +140,7 @@ body{
     border-radius: 50%;
     height: 30px;
     width: 30px;
+    
     
 }
 #title span{
@@ -219,8 +221,18 @@ body{
     .main-body{
         margin-top: 0;
         width: 100%;
-        
+        height: auto;
+        margin-bottom: 0;
+        border-bottom-left-radius: 20px;
         /* margin-bottom: 0; */
     
   }
+  #title img{
+    margin-right: 20px;
+  }
+  .footer{
+    position: sticky;
+    
+}
+
   }
