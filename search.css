@@ -5,9 +5,11 @@
     padding: 10px;
     background-color: #ebeaea;
     margin: 10px;
-    border-radius: 13px;
+     border-radius: 13px;
+    
+     
 }
-/* .block{
+.block{
     
     display: grid;
     height:90vh;
@@ -18,13 +20,13 @@
     overflow: hidden;
     overflow-y: scroll;
 }
-/* .block::-webkit-scrollbar{
+.block::-webkit-scrollbar{
     display: none;
-} */
-/* .block div{
+} 
+.block div{
 
     background-color: #dadada;
-} */
+}
 
 
 
@@ -33,8 +35,8 @@
     /* background: #cccccc; */
     /* color: white; */
     /* padding: 15px; */
-    display: grid;
-    
+    /* display: grid; */
+    position: relative;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr ;
     gap: 5px;
@@ -54,12 +56,50 @@
 .block::-webkit-scrollbar{
     display: none;
 }
+.block #load{
+    background-color: transparent;
+    grid-column-start: 2;
+    grid-column-end: span;
+    grid-row-start: 0;
+    grid-row-end: 2;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+.block{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
+
+#load{
+    /* position: absolute; */
+    background-color: transparent;
+    margin-top: 20px;
+    height: 55px;
+    cursor: pointer;
+    width: 40px;
+    z-index: 10;
+    
+}
 .block div{
     display: flex;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
 }
 .block div  img{
+    /* display: flex; */
+    /* object-position: center; */
+    width:100%;
+    height: 100%;
+
+}
+.block div  video{
     /* display: flex; */
     /* object-position: center; */
     width:100%;
