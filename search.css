@@ -9,9 +9,11 @@
     
      
 }
+*/
+
 .block{
     
-    display: grid;
+    /* display: grid; */
     height:90vh;
     width: 100%;
     grid-template-columns:1fr 1fr 1fr;
@@ -56,7 +58,7 @@
 .block::-webkit-scrollbar{
     display: none;
 }
-.block #load{
+/* .block #load{
     background-color: transparent;
     grid-column-start: 2;
     grid-column-end: span;
@@ -66,8 +68,13 @@
     margin-left: 40px;
 
 }
-
-
+*/
+.block{
+    display: flex;
+    
+    justify-content: center;
+    
+}
 
 
 #load{

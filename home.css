@@ -13,6 +13,25 @@
     position: relative;
     /* display: none; */
 }
+@media (min-width:250px) and (max-width:500px) {
+    .main-body{
+        margin-top: 0;
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 0;
+        border-radius: 0px;
+        /* margin-bottom: 0; */
+    
+  }
+  .footer{
+    border-radius: 0;
+  }
+  #title img{
+    margin-right: 20px;
+  }
+  
+
+  }
 
 .main #logo > img{
     height: 40px;
@@ -217,22 +236,3 @@ body{
     height: 22px;
 
 }
-@media (min-width:250px) and (max-width:500px) {
-    .main-body{
-        margin-top: 0;
-        width: 100%;
-        height: auto;
-        margin-bottom: 0;
-        border-radius: 0px;
-        /* margin-bottom: 0; */
-    
-  }
-  .footer{
-    border-radius: 0;
-  }
-  #title img{
-    margin-right: 20px;
-  }
-  
-
-  }
