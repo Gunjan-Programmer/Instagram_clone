@@ -217,13 +217,13 @@ body{
     height: 22px;
 
 }
-@media (min-width:319px) and (max-width:480px) {
+@media (min-width:250px) and (max-width:500px) {
     .main-body{
         margin-top: 0;
         width: 100%;
         height: auto;
         margin-bottom: 0;
-        border-bottom-left-radius: 20px;
+        border-radius: 0px;
         /* margin-bottom: 0; */
     
   }
