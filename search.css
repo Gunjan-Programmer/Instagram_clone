@@ -9,7 +9,7 @@
     
      
 }
-*/
+
 
 .block{
     
@@ -108,5 +108,6 @@
 
 }
 .footer{
-    position: sticky;
+    display: flex;
+    align-items: flex-end;
 }

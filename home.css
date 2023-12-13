@@ -211,11 +211,15 @@ body{
     /* border-bottom: 1px solid #dadada; */
     /* display: none; */
 }
+/* ::selection{
+    background: none;
+    color: none; */
+/* } */
 .footer>a>img{
     height: 22px;
 
 }
-@media (min-width:250px) and (max-width:500px) {
+@media (min-width:250px) and (max-width:390px) {
     .main-body{
         margin-top: 0;
         width: 100%;

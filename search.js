@@ -80,6 +80,6 @@ function loadReels(){
 }
 
 function generate_img(idx){
-    var img =   `<div><img src="https://picsum.photos/200/300?random=${idx}" alt=""></div>`;
+    var img =   `<div><img controls controlsList="nodownload"  src="https://picsum.photos/200/300?random=${idx}" alt=""></div>`;
     return img;
 }
